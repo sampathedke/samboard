@@ -1,0 +1,13 @@
+spring.application.name=son
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/yourdb
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+server.address=0.0.0.0
+server.port=8888
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
